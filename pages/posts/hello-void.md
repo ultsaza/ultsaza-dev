@@ -27,6 +27,14 @@ export default defineConfig({
 > [!TIP]
 > 全ページを HTML として事前に生成するので、ブラウザに JavaScript はほとんど届きません。
 
+## 数式
+
+数式も書けます。インラインは $e^{i\pi} + 1 = 0$、ブロックは次のとおりです。
+
+$$
+\int_0^\infty e^{-x^2}\,dx = \frac{\sqrt{\pi}}{2}
+$$
+
 脚注も書けます。[^1]
 
 [^1]: `@void/md` は markdown-it とそのプラグインで変換しています。

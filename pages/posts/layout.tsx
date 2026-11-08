@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import { useFrontmatter } from "@void/md";
+import "katex/dist/katex.min.css";
 import { formatDate } from "../../src/date";
 
 export default function PostLayout({ children }: { children: ReactNode }) {
