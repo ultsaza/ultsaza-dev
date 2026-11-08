@@ -84,3 +84,23 @@ a {
   margin: 0;
   color: var(--site-muted);
 }
+
+.post-header {
+  margin-bottom: 2rem;
+}
+
+.post-header h1 {
+  margin: 0 0 0.5rem;
+  font-size: 2rem;
+  line-height: 1.4;
+}
+
+.post-header time {
+  color: var(--site-muted);
+  font-size: 0.9rem;
+}
+
+/* github-light gives code blocks a white background; outline them on white pages. */
+.void-md div[class*="language-"] {
+  border: 1px solid var(--vmd-border);
+}
