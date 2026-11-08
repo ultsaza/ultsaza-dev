@@ -11,11 +11,11 @@ tags: [void, cloudflare]
 
 ## 構成
 
-| 役割 | 使っているもの |
-| --- | --- |
-| フレームワーク | Void 1.6.2 |
-| ツールチェーン | Vite+ 1.5.0 |
-| 配信 | Cloudflare Workers |
+| 役割           | 使っているもの     |
+| -------------- | ------------------ |
+| フレームワーク | Void 1.6.2         |
+| ツールチェーン | Vite+ 1.5.0        |
+| 配信           | Cloudflare Workers |
 
 ```ts
 // void.config.ts
