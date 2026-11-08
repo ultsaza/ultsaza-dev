@@ -104,3 +104,50 @@ a {
 .void-md div[class*="language-"] {
   border: 1px solid var(--vmd-border);
 }
+
+.post-list {
+  margin-top: 3rem;
+}
+
+.post-list h2 {
+  margin: 0 0 0.5rem;
+  color: var(--site-muted);
+  font-size: 1rem;
+}
+
+.post-list ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.post-list li {
+  padding-block: 1.25rem;
+  border-top: 1px solid var(--site-border);
+}
+
+.post-list li > a {
+  color: var(--site-text);
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.post-list li > a:hover {
+  text-decoration: underline;
+}
+
+.post-meta {
+  display: flex;
+  gap: 0.75rem;
+  color: var(--site-muted);
+  font-size: 0.875rem;
+}
+
+.post-draft {
+  color: #b45309;
+}
+
+.post-list li > p {
+  margin: 0.25rem 0 0;
+}
